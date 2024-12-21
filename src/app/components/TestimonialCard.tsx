@@ -19,7 +19,7 @@ const TestimonialCard = ({
   return (
     <>
       <div className="min-w-[320px] w-full flex flex-col items-start p-[42px] bg-[#F3F3F3] ">
-        <div className="text-start font-semibold text-[20px] leading-[30px]">
+        <div className="font-[#2D2D2D] text-start font-semibold text-[20px] leading-[30px]">
           {description}
         </div>
 
@@ -37,8 +37,12 @@ const TestimonialCard = ({
             </div>
 
             <div className="flex flex-col items-start ">
-              <p className="font-semibold font-[20px] leading-5 ">{name}</p>
-              <p>{company}</p>
+              <p className="font-[#2D2D2D]  font-[20px] font-semibold leading-5 ">
+                {name}
+              </p>
+              <p className="font-[#2D2D2D] text-[17px] font-normal leading-[27px]">
+                {company}
+              </p>
             </div>
           </div>
         </div>

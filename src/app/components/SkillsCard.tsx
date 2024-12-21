@@ -18,8 +18,10 @@ const SkillsCard = ({
           <img src={imageSrc} alt={imgAlt} className="w-full h-full " />
         </div>
         <div className="w-[310px]  h-[135px] flex flex-col items-center just gap-4">
-          <h2 className="font-semibold text-[27px] leading-[42px]">{title}</h2>
-          <p className="font-normal text-[17px] leading-[27px] text-center">
+          <h2 className="font-semibold text-[27px] leading-[42px] font-[#2D2D2D]">
+            {title}
+          </h2>
+          <p className="font-normal text-[17px] leading-[27px] text-center font-[#2D2D2D]">
             {description}
           </p>
         </div>

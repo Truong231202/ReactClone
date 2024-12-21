@@ -1,17 +1,14 @@
-import HeaderSection from "@/app/pages/HeaderSection";
-import Nav from "@/app/pages/Nav";
-import LogoBar from "@/app/pages/LogoBar";
-import Image from "next/image";
-import SkillsSection from "@/app/pages/SkillsSection";
-import GallerySection from "@/app/pages/GallerySection";
-import TesmotionalSectionPage from "@/app/pages/TesmotionalSectionPage";
-import ContactPage from "@/app/pages/ContactPage";
-import ContactForm from "@/app/components/ContactSection/ContactForm";
-import ContentContactSection from "@/app/components/ContactSection/ContentContactSection";
+import HeaderSection from "@/app/components/HeaderSection";
+import Nav from "@/app/components/Nav";
+import LogoBar from "@/app/components/LogoBar";
+import SkillsSection from "@/app/components/SkillsSection";
+import GallerySection from "@/app/components/GallerySection";
+import TesmotionalSectionPage from "@/app/components/TesmotionalSectionPage";
+import ContactPage from "@/app/components/ContactPage";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-white">
       <Nav></Nav>
       <HeaderSection></HeaderSection>
       <LogoBar></LogoBar>
@@ -19,6 +16,6 @@ export default function Home() {
       <GallerySection></GallerySection>
       <TesmotionalSectionPage></TesmotionalSectionPage>
       <ContactPage></ContactPage>
-    </>
+    </div>
   );
 }
